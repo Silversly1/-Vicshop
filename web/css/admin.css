@@ -1,0 +1,45 @@
+/* ============================================================
+   VICS Admin - Admin-only accents (loaded after css/style.css)
+   ============================================================ */
+
+.admin-header {
+    background: linear-gradient(90deg, rgba(32, 17, 56, .95), rgba(56, 24, 92, .95));
+    border-bottom: 1px solid #4a3182;
+}
+
+/* Admin badge shown next to page headings */
+.badge-admin {
+    background: rgba(167, 139, 250, .16);
+    color: var(--primary-light);
+    border: 1px solid rgba(167, 139, 250, .3);
+    font-size: .72rem;
+    padding: .3rem .7rem;
+    border-radius: 999px;
+    margin-left: .6rem;
+    vertical-align: middle;
+}
+
+/* Themed destructive action inside admin tables */
+.admin-table .btn-danger {
+    background: #b91c4b;
+    color: #fff;
+    border-color: transparent;
+}
+
+.admin-table .btn-danger:hover {
+    background: #a0163d;
+    color: #fff;
+}
+
+/* Uploaded product thumbnail inside the admin form */
+.admin-section .form-group img {
+    border-radius: 10px;
+    border: 1px solid var(--border);
+}
+
+@media (max-width: 768px) {
+    .quick-actions {
+        flex-direction: column;
+    }
+}
+body{background:#1a102f;color:#f3e8ff;} .site-header,.admin-header{background:#2a1b4d;} .btn-primary{background:linear-gradient(135deg,#9d7bff,#a78bfa);} table{background:#2a1b4d;} .stat-card{background:linear-gradient(180deg,rgba(157,123,255,.12),#2a1b4d);}
